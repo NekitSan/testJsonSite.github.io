@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simple JSON example</title>
+  </head>
+  <body>
+	 <script type="TEXT/javascript">
+
+    //var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+    //var requestURL = "https://github.com/NekitSan/ASL_std./blob/master/asl.ru/www/js/json/infoUsers.json";
+    var requestURL = "/js/json/infoUsers.json";
+
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+
+    request.responseType = 'json';
+    request.send();
+
+    request.onload = function() {
+      var superHeroes = request.response;
+      jsonEl(superHeroes);
+    }
+
+
+    function jsonEl(jsonObj) {
+      var myH1 = document.createElement('h1');
+      var sss = jsonObj['Admins'].length;
+      
+      for(var i = 0; i < sss; i++)
+      {
+        console.log(jsonObj['Admins'][i]['id']);
+      }
+    }
+
+    </script>
+  </body>
+</html>

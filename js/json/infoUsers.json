@@ -1,0 +1,124 @@
+{
+    "Admins" : [
+      {
+        "id" : 0,
+        "name" : "Витя Близниченко",
+        "imager" : "imager/technol/photo_admins/1.jpg",
+        "alt_imager" :"Фотография с сайта Вконтакте - Витя",
+        "age" : "X",
+        "secretIdentity" : "Snoop1CattZ69",
+        "accesLVL" : 0,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Глава студии ASLTeam",
+          "Главный разработчки",
+          "JAVA - разработчик"
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Никита Тихонов",
+        "imager": "imager/technol/photo_admins/2.jpg",
+        "alt_imager":"Фотография с сайта Вконтакте - Никита",
+        "age": "X",
+        "secretIdentity": "Nekit San",
+        "accesLVL" : 0,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Web - разработчик",
+          "Администратор сайта",
+          "Администратор ASL-wiki"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Иван Юсюмбели",
+        "imager": "imager/technol/photo_admins/7.jpg",
+        "alt_imager":"Фотография с сайта Вконтакте - Иван",
+        "age": "X",
+        "secretIdentity": "Obdolbanius",
+        "accesLVL" : 1,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Глава студии ASLTeam",
+          "Главный разработчки",
+          "JAVA - разработчик"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Юрий Иванов",
+        "imager": "imager/technol/photo_admins/3.jpg",
+        "alt_imager":"Фотография с сайта Вконтакте - Юрий",
+        "age": "X",
+        "secretIdentity": "HalfDeadMan",
+        "accesLVL" : 1,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Глава студии ASLTeam",
+          "Главный разработчки",
+          "JAVA - разработчик"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Ростик Завьялов",
+        "imager": "imager/technol/photo_admins/5.jpg",
+        "alt_imager":"Фотография с сайта Вконтакте - Ростик",
+        "age": "X",
+        "secretIdentity": "maybe",
+        "accesLVL" : 1,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Глава студии ASLTeam",
+          "Главный разработчки",
+          "JAVA - разработчик"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Никита Половинкин",
+        "imager": "imager/technol/photo_admins/6.jpg",
+        "alt_imager":"Фотография с сайта Вконтакте - Никита",
+        "age": "X",
+        "secretIdentity": "Krooton",
+        "accesLVL" : 1,
+        "links" : [
+          "vk",
+          "inst",
+          "twich",
+          "youtube"
+        ],
+        "powers" : [
+          "Глава студии ASLTeam",
+          "Главный разработчки",
+          "JAVA - разработчик"
+        ]
+      }
+    ]
+}
